@@ -79,6 +79,7 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	$translation =~ s/“/"/g;
 	$translation =~ s/\.{4,}/\.\.\./g;
 	$translation =~ s/…/\.\.\./g;
+	$translation =~ s/^\.\.\.\s+/\.\.\./g;
 
 	# Declare empty variable for storing hex representation of translated string.
 	my $translation_hex = "";
