@@ -92,12 +92,34 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Otherwise, text should be processed.
 	else
 	{
-		# Store Shift-JIS/ASCII-encoded hex representation of the string.
-		$translation_hex = unpack('H*', encode('Shift-JIS', $translation));
+		# Store ASCII-encoded hex representation of the string.
+		$translation_hex = unpack('H*', encode('ASCII', $translation));
+
 	}
 
 	# Remove erroneous leading 0x3F character from hex representation of translated text.
 	$translation_hex =~ s/^3f//g;
+
+	# Quick fix for "STRONGEST TRIO" text.
+	if($i == 488)
+	{
+		$translation_hex = "544845205354524F4E47455354205452494F3B20819C8149";
+	}
+	# Quick fix for "and" text.
+	elsif($i == 489)
+	{
+		$translation_hex = "616E6420819D8149";
+	}
+	# Quick fix for "●！" text.
+	elsif($i == 485)
+	{
+		$translation_hex = "819C8149";
+	}
+	# Quick fix for "○！" text.
+	elsif($i == 487)
+	{
+		$translation_hex = "819B8149";
+	}
 
 	# Append null padding for four-byte alignment.
 	$translation_hex .= "00";

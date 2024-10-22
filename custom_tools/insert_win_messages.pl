@@ -64,11 +64,37 @@ my $text_data = "";
 # Iterate through each row of spreadsheet, skipping header columns.
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
-	# Store data from current spreadsheet row.
-	my $number = int($spreadsheet_rows[$i][0]);
-	my $location = int($spreadsheet_rows[$i][1]);
+	# Store string number, location, and pointer location for current spreadsheet row.
+	my $number = $spreadsheet_rows[$i][0];
+	my $location = $spreadsheet_rows[$i][1];
+	my $pointer_location = $spreadsheet_rows[$i][2];
+
+	# Ensure string number and location values are sane.
+	foreach my $number_check ($number, $location)
+	{
+		unless($number_check =~ /^-?\d+(\.\d+)?$/)
+		{
+			print "ERROR: Row " . ($i + 1) . " has a missing or corrupt string number or location value!\n";
+			<STDIN>;
+		}
+	}
+
+	# Ensure pointer location value is sane.
+	unless($pointer_location =~ /^(-?\d+(\.\d+)?)(,\s*-?\d+(\.\d+)?)*$/)
+	{
+		print "ERROR: Row " . ($i + 1) . " has a missing or corrupt pointer location value!\n";
+		<STDIN>;
+	}
+
+	# After sanity check, cast each to integer.
+	$number = int($number);
+	$location = int($location);
+	$pointer_location = int($pointer_location);
+
+	# Generate pointer based on string location.
 	my $pointer = &endian_swap(&decimal_to_hex($location, 4));
-	my $pointer_location = int($spreadsheet_rows[$i][2]);
+
+	# Store English text.
 	my $translation = decode_entities($spreadsheet_rows[$i][5]);
 
 	# Clean translated text.
@@ -80,7 +106,16 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	$translation =~ s/“/"/g;
 	$translation =~ s/\.{4,}/\.\.\./g;
 	$translation =~ s/…/\.\.\./g;
+	$translation =~ s/‥/\.\./g;
 	$translation =~ s/^\.\.\.\s+/\.\.\./g;
+	$translation =~ s/\P{IsPrint}//g;
+	
+	#### NO LONGER REMOVING NON-ASCII CHARACTERS ####
+	#$translation =~ s/[^[:ascii:]]+//g;
+	#################################################
+
+	# Fix "W-what" and all similar occurrences to "W-What".
+	$translation =~ s/([A-Z])-([a-z])/$1 . '-' . uc($2)/ge;
 
 	# Declare empty variable for storing hex representation of translated string.
 	my $translation_hex = "";
@@ -90,20 +125,54 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	{
 		$translation_hex = "20";
 	}
+	# Treat text as special asterisk sequence.
+	elsif($translation eq "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+	{
+		$translation_hex = "81968196819681968196819681968196819681968196819681968196819681968196819681968196";
+	}
 	# Otherwise, text should be processed.
 	else
 	{
-		# Store Shift-JIS/ASCII-encoded hex representation of the string.
+		#### USING SHIFT-JIS NOW IN ORDER TO USE SOME NON-ASCII CHARACTERS ####
+		# Store ASCII-encoded hex representation of the string.
+		#$translation_hex = unpack('H*', encode('ASCII', $translation));
+		#######################################################################
+
+		# Store Shift-JIS-encoded hex representation of the string.
 		$translation_hex = unpack('H*', encode('Shift-JIS', $translation));
 	}
 
-	# Append null padding for four-byte alignment.
+	# Remove erroneous leading 0x3F character from hex representation of translated text.
+	$translation_hex =~ s/^3f//g;
+
+	#### NEW ####
+	# Append null padding.
 	$translation_hex .= "00";
 
-	while((length($translation_hex) / 2) % 4 != 0)
+	# Append current string's data.
+	$text_data .= $translation_hex;
+
+	# Append enough padding for four-byte alignment to final string before pointer table starts.
+	if($i == scalar(@spreadsheet_rows) - 1)
 	{
-		$translation_hex .= "00";
+		while((length($text_data) / 2) % 4 != 0)
+		{
+			$translation_hex .= "00";
+			$text_data .= "00";
+		}
 	}
+	#### NEW ####
+
+	#### TURNS OUT 4-BYTE ALIGNMENT ISN'T NECESSARY ####
+	######### CODE ABOVE NOW BEING USED INSTEAD ########
+	# # Append null padding for four-byte alignment.
+	# $translation_hex .= "00";
+
+	# while((length($translation_hex) / 2) % 4 != 0)
+	# {
+	# 	$translation_hex .= "00";
+	# }
+	####################################################
 
 	# Calculate new pointer based on current position.
 	my $pointer_new = &endian_swap(&decimal_to_hex($text_position, 4));
@@ -116,8 +185,10 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Increase position of current string for pointer calculation purposes.
 	$text_position += (length($translation_hex) / 2);
 
-	# Append current string's data.
-	$text_data .= $translation_hex;
+	#### PART OF OLD 4-BYTE ALIGNMENT CODE ####
+	# # Append current string's data.
+	# $text_data .= $translation_hex;
+	###########################################
 }
 
 # Store size difference between original and new text portion for purposes of pointer calculation.
@@ -210,7 +281,7 @@ if(length($output_data) / 2 > $maximum_file_size)
 #
 # 1st parameter - Decimal number.
 # 2nd parameter - Number of bytes with which to represent hexadecimal number (omit parameter for no
-#                 padding).
+#				 padding).
 sub decimal_to_hex
 {
 	if($_[1] eq "")

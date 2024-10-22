@@ -35,6 +35,7 @@ my $overwrite_location = 1725024;
 
 # Store capacity (in bytes) of new move data.
 my $overwrite_location_capacity = 16384;
+my $overwrite_location_capacity = 12032;
 
 # Set offset at which move data should be written in 1ST_READ.BIN (0x8C1B5260).
 my $start_address = 2350600800;
