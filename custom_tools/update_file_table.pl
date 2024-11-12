@@ -15,7 +15,8 @@ binmode(STDOUT, "encoding(UTF-8)");
 # Store paths to input/output files.
 my $file_table = "FILE_TABLE.BIN";
 my $file_table_new = "FILE_TABLE_NEW.BIN";
-my $game_executable = "../gdi_testing/gdi_extracted/1ST_READ.BIN";
+#my $game_executable = "../gdi_testing/gdi_extracted/1ST_READ.BIN";
+my $game_executable = "1ST_READ.BIN";
 my $game_files = "../gdi_testing/gdi_extracted/";
 
 # Store position of file table in game executable (0x182DF4).
