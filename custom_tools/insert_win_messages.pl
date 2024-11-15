@@ -16,12 +16,24 @@ use Spreadsheet::Read qw(ReadData);
 # Set STDOUT encoding to UTF-8.
 binmode(STDOUT, "encoding(UTF-8)");
 
+# Store arguments.
+my $mode = $ARGV[0];
+
 # Set input file.
 my $input_file = "MESJ_WIN_NEW.BIN.xlsx";
 my $message_file = "../gdi_original_extracted/MESJ_WIN.BIN";
 
-# Set output files.
-my $output_file = "MESJ_WIN.BIN";
+# Set output file name base based on mode.
+my $output_file;
+
+if($mode eq "A")
+{
+	$output_file = "MESJ_WIN.BIN";
+}
+elsif($mode eq "B")
+{
+	$output_file = "MESE_WIN.BIN";
+}
 
 # Store pre-text/pointer section of message data.
 my $pre_text_data = &read_bytes_at_offset($message_file, 5100, 8);
@@ -94,56 +106,76 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Generate pointer based on string location.
 	my $pointer = &endian_swap(&decimal_to_hex($location, 4));
 
-	# Store English text.
-	my $translation = decode_entities($spreadsheet_rows[$i][5]);
+	# Declare empty variables to hold translation and its hex representation.
+	my $translation;
+	my $translation_hex;
 
-	# Clean translated text.
-	$translation =~ s/^\s+|\s+$//g;
-	$translation =~ s/ +/ /;
-	$translation =~ s/\s+/ /g;
-	$translation =~ s/’/'/g;
-	$translation =~ s/”/"/g;
-	$translation =~ s/“/"/g;
-	$translation =~ s/\.{4,}/\.\.\./g;
-	$translation =~ s/…/\.\.\./g;
-	$translation =~ s/‥/\.\./g;
-	$translation =~ s/^\.\.\.\s+/\.\.\./g;
-	$translation =~ s/\P{IsPrint}//g;
-	
-	#### NO LONGER REMOVING NON-ASCII CHARACTERS ####
-	#$translation =~ s/[^[:ascii:]]+//g;
-	#################################################
-
-	# Fix "W-what" and all similar occurrences to "W-What".
-	$translation =~ s/([A-Z])-([a-z])/$1 . '-' . uc($2)/ge;
-
-	# Declare empty variable for storing hex representation of translated string.
-	my $translation_hex = "";
-
-	# Text should be dummied with a single empty space.
-	if($translation eq "NULL")
+	# Only process text if it's in range for either mode A or B.
+	if(($mode eq "A" && $number <= 4543) || ($mode eq "B" && $number >= 4544))
 	{
-		$translation_hex = "20";
+		# Store English text.
+		$translation = decode_entities($spreadsheet_rows[$i][5]);
+
+		# Clean translated text.
+		$translation =~ s/^\s+|\s+$//g;
+		$translation =~ s/ +/ /;
+		$translation =~ s/\s+/ /g;
+		$translation =~ s/’/'/g;
+		$translation =~ s/”/"/g;
+		$translation =~ s/“/"/g;
+		$translation =~ s/\.{4,}/\.\.\./g;
+		$translation =~ s/…/\.\.\./g;
+		$translation =~ s/‥/\.\./g;
+		$translation =~ s/^\.\.\.\s+/\.\.\./g;
+		$translation =~ s/\P{IsPrint}//g;
+		
+		#### NO LONGER REMOVING NON-ASCII CHARACTERS ####
+		#$translation =~ s/[^[:ascii:]]+//g;
+		#################################################
+
+		# Fix "W-what" and all similar occurrences to "W-What".
+		$translation =~ s/([A-Z])-([a-z])/$1 . '-' . uc($2)/ge;
+
+		# Text should be dummied with a single empty space.
+		if($translation eq "NULL")
+		{
+			$translation_hex = "20";
+		}
+		# Treat text as special asterisk sequence.
+		elsif($number == 138)
+		{
+			$translation_hex = "81968196819681968196819681968196819681968196819681968196819681968196819681968196";
+		}
+		# Otherwise, text should be processed.
+		else
+		{
+			#### USING SHIFT-JIS NOW IN ORDER TO USE SOME NON-ASCII CHARACTERS ####
+			# Store ASCII-encoded hex representation of the string.
+			#$translation_hex = unpack('H*', encode('ASCII', $translation));
+			#######################################################################
+
+			# Store Shift-JIS-encoded hex representation of the string.
+			$translation_hex = unpack('H*', encode('Shift-JIS', $translation));
+		}
+
+		# Remove erroneous leading 0x3F character from hex representation of translated text.
+		$translation_hex =~ s/^3f//g;
 	}
-	# Treat text as special asterisk sequence.
-	elsif($translation eq "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-	{
-		$translation_hex = "81968196819681968196819681968196819681968196819681968196819681968196819681968196";
-	}
-	# Otherwise, text should be processed.
+	# Otherwise, use dummy "X" placeholder.
 	else
 	{
-		#### USING SHIFT-JIS NOW IN ORDER TO USE SOME NON-ASCII CHARACTERS ####
-		# Store ASCII-encoded hex representation of the string.
-		#$translation_hex = unpack('H*', encode('ASCII', $translation));
-		#######################################################################
+		$translation = "X";
 
-		# Store Shift-JIS-encoded hex representation of the string.
-		$translation_hex = unpack('H*', encode('Shift-JIS', $translation));
+		# Treat text as special asterisk sequence.
+		if($number == 138)
+		{
+			$translation_hex = "81968196819681968196819681968196819681968196819681968196819681968196819681968196";
+		}
+		else
+		{
+			$translation_hex = "58";
+		}
 	}
-
-	# Remove erroneous leading 0x3F character from hex representation of translated text.
-	$translation_hex =~ s/^3f//g;
 
 	#### NEW ####
 	# Append null padding.
