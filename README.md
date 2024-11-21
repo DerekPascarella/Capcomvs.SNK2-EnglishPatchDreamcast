@@ -115,3 +115,6 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
   <li>Initial release.</li>
  </ul>
 </ul>
+
+<h2>Reporting Bugs and Typos</h2>
+Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
