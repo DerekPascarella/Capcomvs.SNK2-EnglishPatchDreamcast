@@ -107,3 +107,11 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
    <li>Justin Gibbins</li>
   </ul>
 </ul>
+
+<h2>Release Changelog</h2>
+<ul>
+ <li><b>Version 1.0 (202X-XX-XX)</b></li>
+ <ul>
+  <li>Initial release.</li>
+ </ul>
+</ul>
