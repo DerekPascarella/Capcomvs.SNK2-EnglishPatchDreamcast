@@ -63,7 +63,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
  <li>
    <b>CDI Format (Users Burning to CD-R)</b>
    <br>
-   <img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>75CC93F861E95C8CDCAF6863B1EB3976</tt>.
+   <img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch files shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>75CC93F861E95C8CDCAF6863B1EB3976</tt>.
    <br><br>
    <ol type="1">
      <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
