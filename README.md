@@ -54,7 +54,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
    <br><br>
    <ol type="1"><li>Click the settings icon (appears as a gear) and enable "Checksum validation".</li>
      <li>Click the "Original file" browse icon and select the original <tt>track03.bin</tt> file.</li>
-     <li>Click the "XDelta patch" browse icon and select the XDelta patch.</li>
+     <li>Click the "XDelta patch" browse icon and select the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [GDI].xdelta</tt> XDelta patch.</li>
      <li>Click "Apply patch" to overwrite the original <tt>track03.bin</tt> file with the patched version.</li>
      <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>xxx</tt>.
    </ol>
@@ -68,7 +68,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
    <ol type="1">
      <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
      <li>Click the "Original file" browse icon and select the unmodified CDI.</li>
-     <li>Click the "XDelta patch" browse icon and select the XDelta patch.</li>
+     <li>Click the "XDelta patch" browse icon and select either the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
      <li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li>
      <li>Verify that the patched CDI has an MD5 checksum of <tt>xxx</tt> if using the Data/Data mode patch, and <tt>xxx</tt> if using the Audio/Data mode patch.
    </ol>
