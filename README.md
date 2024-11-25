@@ -8,15 +8,30 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 <ul>
   <li><b>GDI Format (Users of ODEs or Emulators)</b><br>
     <ul>
-      <li><b>Option 1:</b> Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxx.dcp">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
-      <li><b>Option 2:</b> Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
+      <li>
+        <b>Option 1</b>
+        <br>
+        Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxx.dcp">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
+      </li>
+      <li>
+        <b>Option 2</b>
+        <br>
+        Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+      </li>
     </ul>
   </li>
   <br>
   <li><b>CDI Format (Users Burning to CD-R)</b><br>
     <ul>
-      <li><b>Option 1:</b> Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
-      <li><b>Option 2:</b> Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
+      <li>
+        <b>Option 1</b>
+        <br>
+        Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+      </li>
+      <li>
+        <b>Option 2</b>
+        <br>Download <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/releases/download/1.0/xxxxx.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+      </li>
     </ul>
   </li>
 </ul>
