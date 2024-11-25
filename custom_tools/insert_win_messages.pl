@@ -110,11 +110,20 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	my $translation;
 	my $translation_hex;
 
+	# Initialize incomplete translation counter to zero.
+	my $incomplete_translations = 0;
+
 	# Only process text if it's in range for either mode A or B.
 	if(($mode eq "A" && $number <= 4543) || ($mode eq "B" && $number >= 4544))
 	{
 		# Store English text.
 		$translation = decode_entities($spreadsheet_rows[$i][5]);
+
+		# Increase count of incomplete translations by one if placeholder number is present.
+		if($translation =~ /^(-?\d+(\.\d+)?)(,\s*-?\d+(\.\d+)?)*$/)
+		{
+			$incomplete_translations ++;
+		}
 
 		# Clean translated text.
 		$translation =~ s/^\s+|\s+$//g;
@@ -298,6 +307,7 @@ print "Writing data...\n";
 
 # Status message.
 print "\nComplete!\n\n";
+print $incomplete_translations . " incomplete translations detected.\n\n";
 print $pointer_count_string . " string pointers updated.\n\n";
 print $pointer_count_other . " other pointers updated.\n\n";
 print "Data written to file \"" . $output_file . "\" (" . (length($output_data) / 2) . " bytes).\n\n";
