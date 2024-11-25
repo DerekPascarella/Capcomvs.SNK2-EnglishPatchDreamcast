@@ -73,6 +73,9 @@ print "Extracting text and rebuilding data...\n\n";
 # Declare empty variable to hold entirety of newly generated text data.
 my $text_data = "";
 
+# Initialize incomplete translation counter to zero.
+my $incomplete_translations = 0;
+
 # Iterate through each row of spreadsheet, skipping header columns.
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
@@ -109,9 +112,6 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Declare empty variables to hold translation and its hex representation.
 	my $translation;
 	my $translation_hex;
-
-	# Initialize incomplete translation counter to zero.
-	my $incomplete_translations = 0;
 
 	# Only process text if it's in range for either mode A or B.
 	if(($mode eq "A" && $number <= 4543) || ($mode eq "B" && $number >= 4544))
