@@ -67,7 +67,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
    <br>
    <img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. It targets <tt>track03.bin</tt> of the original TOSEC GDI. Ensure the source <tt>track03.bin</tt> file has an MD5 checksum of <tt>FF8E199324FC11D4F638E5C99315CDBB</tt>.
    <br><br>
-   <ol type="1"><li>Click the settings icon (appears as a gear) and enable "Checksum validation".</li>
+   <ol type="1"><li>Click the settings icon (appears as a gear), enable "Checksum validation", and disable "Backup original file".</li>
      <li>Click the "Original file" browse icon and select the original <tt>track03.bin</tt> file.</li>
      <li>Click the "XDelta patch" browse icon and select the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [GDI].xdelta</tt> XDelta patch.</li>
      <li>Click "Apply patch" to overwrite the original <tt>track03.bin</tt> file with the patched version.</li>
