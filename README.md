@@ -1,5 +1,8 @@
 <h1>Capcom vs. SNK 2: Millionaire Fighting 2001</h1>
-<img width="165" height="165" align="right" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/cover.png?raw=true">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section). Note that there are several patch options.
+<img width="165" height="165" align="right" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/cover.png?raw=true"><!--Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section). Note that there are several patch options.-->
+Note that there are several options, explained below, for applying this English translation patch. All produce the same patched version of the game.
+<br><br>
+For details on how to apply an individual patch, see the <a href="#patching-instructions">Patching Instructions</a> section.
 <br><br>
 Both GDI options produce the same patched disc image, however one requires <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer, whereas the other allows the use of common patch utilities that support XDelta format (like <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>).
 <br><br>
