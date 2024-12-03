@@ -1,6 +1,6 @@
 <h1>Capcom vs. SNK 2: Millionaire Fighting 2001</h1>
 <img width="165" height="165" align="right" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/cover.png?raw=true"><!--Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section). Note that there are several patch options.-->
-Note that there are several options, explained below, for applying this English translation patch. All produce the same patched version of the game.
+Note that there are several options, explained below, for applying this English translation patch. All produce the same patched version of the game, but each caters to users in different ways.
 <br><br>
 For details on how to apply an individual patch, see the <a href="#patching-instructions">Patching Instructions</a> section.
 <br><br>
