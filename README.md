@@ -150,7 +150,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
  <li>The special move "Command List" has been translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>End-of-game cutscenes have been translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>Character portrait thumbnails have been cleaned up and improved.</li>
- <li>All win-quote dialogue that was previously unique to the Japanese version has been translated to English (around 51,000 instances). This dialogue is customized based on who is speaking, who their opponent is, and who their companion fighter is.</li>
+ <li><img src="https://i.imgur.com/XsUAGA0.png"> <b>IMPORTANT:</b> All win-quote dialogue that was previously unique to the Japanese version has been translated to English (around 51,000 instances). This dialogue is customized based on who is speaking, who their opponent is, and who their companion fighter is.</li>
   <ul>
     <li>To see character-specific win quotes in "Single Match" mode, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs. Otherwise, the generic win quotes will be displayed the vast majority of the time.</li>
     <li>In "Ratio Match" mode, the two-way character-specific dialogue is displayed by default.</li>
