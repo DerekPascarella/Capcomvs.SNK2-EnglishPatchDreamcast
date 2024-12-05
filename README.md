@@ -45,10 +45,11 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
 3. [Release Changelog](#release-changelog)
-4. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
-5. [What's Changed](#whats-changed)
-6. [About the Game](#about-the-game)
-7. [Bonus Content](#bonus-content)
+4. [Known Issues](#known-issues)
+5. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
+6. [What's Changed](#whats-changed)
+7. [About the Game](#about-the-game)
+8. [Bonus Content](#bonus-content)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -133,6 +134,11 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
   <li>Initial release.</li>
  </ul>
 </ul>
+
+<h2>Known Issues</h2>
+While the patch development team has worked diligently to eliminate bugs and other imperfections, there presently exists one area of the game where there's room for improvement. Players may notice that various status messages that appear throughout their play (e.g., "Now saving...") are off-center. This is due to a quirk in the game's automatic-text-centering code and its behavior when using its own built-in narrower Latin font. Measures were taken to mitigate this minor issue, but it was not addressed in all cases.
+<br><br>
+It's asked that players please keep this in mind befopre submitting a bug report.
 
 <h2>Reporting Bugs and Typos</h2>
 Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
