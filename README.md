@@ -136,3 +136,25 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 
 <h2>Reporting Bugs and Typos</h2>
 Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
+
+<h2>What's Changed</h2>
+<img align="right" width="267" height="200" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/screenshot1.png?raw=true">Below is a high-level list of changes implemented for this English translation patch.
+<br><br>
+<ul>
+ <li>Character names have been changed to a combination of Japanese and Western variants.</li>
+  <ul>"God Rugal" is used instead of "Ultimate Rugal".</ul>
+  <ul>"Vega" is used instead of "Balrog", "M. Bison" is used instead of "Vega", and "Balrog" is used instead of "M. Bison" (conforming to established Western character names).</ul>
+ <li>English naming conventions used for "Parrying" (instead of "Blocking") and "Custom Combo Finish" (instead of "Original Combo Finish").</li>
+ <li>Japanese "Millionaire Fighting 2001" used instead of "Mark of the Millenium 2001".</li>
+ <li>All text translated translated to English in menus, status messages, and unlock messages.</li>
+ <li>Special move "Command List" translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
+ <li>End-of-game cutscenes translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
+ <li>All win-quote dialogue translated to English (around 51000 instances) that were previously unique to the Japanese version. This dialogue is customized based on who is speaking, who their opponent is, and who their companion fighter is.</li>
+  <ul>To see character-specific win quotes in "Single Match" mode, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs. Otherwise, the generic win quotes will be displayed the vast majority of the time.</ul>
+  <ul>In "Ratio Match" mode, the two-way character-specific dialogue is displayed by default.</ul>
+  <ul>In "3 on 3 Match" mode, the character-specific win quotes are displayed the vast majority of the time, with generic win quotes sometimes used. To force the character-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.</ul>
+ <li>The now-defunct "Network Mode" has been replaced with "Bonus Mode", delivering special bonus content to players (see <a href="#bonus-content">Bonus Content</a> section).</li>
+  <ul>
+   <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
+  </ul>
+</ul>
