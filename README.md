@@ -195,13 +195,11 @@ This crossover game features a host of characters across both Capcom and SNK fig
 To return to the game from the bonus content section, press the L Trigger on the controller, then select "EXIT TO GAME".
 <br><br>
 <ul>
- <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
- <br>
- <li><b>On-Disc Extras Page</b><br>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
- <br>
- <li><b>Original Dricas Website</b><br>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
- <br>
- <li><b>Using Maracas</b><br>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
+   <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all special characters, modes, and settings! Half the fun is unlocking all this yourself, but some of us just want it all done for us.</li>
+   <br>
+   <li><b>TV Commercial</b><br>Watch the original Japanese commercial touting cross-platform online gameplay between the SEGA Dreamcast and the Sony PlayStation 2, fully subtitled in English. Go beyond console hardware!</li>
+   <br>
+   <li><b>Developer Interviews</b><br>Interviews translated by <a href="https://itsfantastic.moe/">Benjamin Roodberg</a>a> from the October 15th, 2001 "Another Play Guide", featuring producers, graphic artists, sound engineers, planners, and programmers.</li>
 </ul>
 
 <h2>Known Issues</h2>
