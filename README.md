@@ -142,17 +142,20 @@ Even after extensive testing on both real hardware and on emulators, the presenc
 <br><br>
 <ul>
  <li>Character names have been changed to a combination of Japanese and Western variants.</li>
-  <ul>"God Rugal" is used instead of "Ultimate Rugal".</ul>
-  <ul>"Vega" is used instead of "Balrog", "M. Bison" is used instead of "Vega", and "Balrog" is used instead of "M. Bison" (conforming to established Western character names).</ul>
+  <ul>
+    <li>"God Rugal" is used instead of "Ultimate Rugal".</li>
+    <li>"Vega" is used instead of "Balrog", "M. Bison" is used instead of "Vega", and "Balrog" is used instead of "M. Bison" (conforming to established Western character names).</li>
+  </ul>
  <li>English naming conventions used for "Parrying" (instead of "Blocking") and "Custom Combo Finish" (instead of "Original Combo Finish").</li>
  <li>Japanese "Millionaire Fighting 2001" used instead of "Mark of the Millenium 2001".</li>
  <li>All text translated translated to English in menus, status messages, and unlock messages.</li>
  <li>Special move "Command List" translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>End-of-game cutscenes translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>All win-quote dialogue translated to English (around 51000 instances) that were previously unique to the Japanese version. This dialogue is customized based on who is speaking, who their opponent is, and who their companion fighter is.</li>
-  <ul>To see character-specific win quotes in "Single Match" mode, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs. Otherwise, the generic win quotes will be displayed the vast majority of the time.</ul>
-  <ul>In "Ratio Match" mode, the two-way character-specific dialogue is displayed by default.</ul>
-  <ul>In "3 on 3 Match" mode, the character-specific win quotes are displayed the vast majority of the time, with generic win quotes sometimes used. To force the character-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.</ul>
+  <ul>
+    <li>To see character-specific win quotes in "Single Match" mode, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs. Otherwise, the generic win quotes will be displayed the vast majority of the time.</li>
+    <li>In "Ratio Match" mode, the two-way character-specific dialogue is displayed by default.</li>
+    <li>In "3 on 3 Match" mode, the character-specific win quotes are displayed the vast majority of the time, with generic win quotes sometimes used. To force the character-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.</li>
  <li>The now-defunct "Network Mode" has been replaced with "Bonus Mode", delivering special bonus content to players (see <a href="#bonus-content">Bonus Content</a> section).</li>
   <ul>
    <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
