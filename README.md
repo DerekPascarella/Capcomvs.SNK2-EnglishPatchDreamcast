@@ -156,9 +156,6 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
     <li>In "3 on 3 Match" mode, the character-specific win quotes are displayed the vast majority of the time, with generic win quotes sometimes used. To force the character-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.</li>
   </ul>
  <li>The now-defunct "Network Mode" has been replaced with "Bonus Mode", delivering special bonus content to players (see <a href="#bonus-content">Bonus Content</a> section).</li>
-  <ul>
-   <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
-  </ul>
 </ul>
 
 <h2>About the Game</h2>
