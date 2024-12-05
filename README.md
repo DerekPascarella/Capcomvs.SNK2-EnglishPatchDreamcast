@@ -144,9 +144,9 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
     <li>"God Rugal" is used instead of "Ultimate Rugal".</li>
     <li>"Vega" is used instead of "Balrog", "M. Bison" is used instead of "Vega", and "Balrog" is used instead of "M. Bison" (conforming to established Western character names).</li>
   </ul>
- <li>English naming conventions are used for "Parrying" (instead of "Blocking") and "Custom Combo Finish" (instead of "Original Combo Finish").</li>
+ <li>Later-established Western naming conventions are used for "Parrying" (instead of "Blocking") and "Custom Combo Finish" (instead of "Original Combo Finish").</li>
  <li>Japanese "Millionaire Fighting 2001" is used instead of "Mark of the Millenium 2001".</li>
- <li>All text has been translated translated to English in menus, status messages, and unlock messages.</li>
+ <li>All menu, status message, and unlock message text has been translated to English based on a combination of the PlayStation 2 version and new translations.</li>
  <li>The special move "Command List" has been translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>End-of-game cutscenes have been translated to English based on PlayStation 2 version, but with several fixes and clean-ups.</li>
  <li>All win-quote dialogue that was previously unique to the Japanese version has been translated to English (around 51,000 instances). This dialogue is customized based on who is speaking, who their opponent is, and who their companion fighter is.</li>
