@@ -189,6 +189,8 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 </table>
 <br>
 "Capcom vs. SNK 2" (カプコン バーサス エス・エヌ・ケイ 2 ミリオネア ファイティング 2001) is a 2D fighting game developed and published by Capcom as the direct sequel to "Capcom vs. SNK: Millennium Fight 2000 Pro". It was released for Sega NAOMI arcade hardware in 2001, with the American arcade release distributed by Sega. It was subsequently ported to the Sega Dreamcast and PlayStation 2 later in the year. 
+<br><br>
+This crossover game features a host of characters across both Capcom and SNK fighting games, with an emphasis on their two flagship franchises, "Street Fighter" and "The King of Fighters", respectively.
 
 <h2>Bonus Content</h2>
 Text goes here...
