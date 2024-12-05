@@ -45,11 +45,11 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
 3. [Release Changelog](#release-changelog)
-4. [Known Issues](#known-issues)
-5. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
-6. [What's Changed](#whats-changed)
-7. [About the Game](#about-the-game)
-8. [Bonus Content](#bonus-content)
+4. [What's Changed](#whats-changed)
+5. [About the Game](#about-the-game)
+6. [Bonus Content](#bonus-content)
+7. [Known Issues](#known-issues)
+8. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
 
 <h2>Patching Instructions</h2>
 <ul>
@@ -135,14 +135,6 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
  </ul>
 </ul>
 
-<h2>Known Issues</h2>
-While the patch development team has worked diligently to eliminate bugs and other imperfections, there presently exists one area of the game where there's room for improvement. Players may notice that various status messages that appear throughout their play (e.g., "Now saving...") are off-center. This is due to a quirk in the game's automatic-text-centering code and its behavior when using its own built-in narrower Latin font. Measures were taken to mitigate this minor issue, but it was not addressed in all cases.
-<br><br>
-It's asked that players please keep this in mind befopre submitting a bug report.
-
-<h2>Reporting Bugs and Typos</h2>
-Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
-
 <h2>What's Changed</h2>
 <img align="right" width="267" height="200" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/screenshot1.png?raw=true">Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
@@ -168,3 +160,43 @@ Even after extensive testing on both real hardware and on emulators, the presenc
    <li>Previously this portion of the game was inaccessible to those who've never configured ISP settings on their Dreamcast, but this requirement has been removed.</li>
   </ul>
 </ul>
+
+<h2>About the Game</h2>
+<table>
+   <tr>
+      <td><b>Title</b></td>
+      <td>Capcom vs. SNK 2 Millionaire Fighting 2001 (カプコン バーサス エス・エヌ・ケイ 2 ミリオネア ファイティング 2001)</td>
+   </tr>
+   <tr>
+      <td><b>Developer</b></td>
+      <td>Capcom</td>
+   </tr>
+   <tr>
+      <td><b>Publisher</b></td>
+      <td>Capcom</td>
+   </tr>
+   <tr>
+      <td><b>Licensor</b></td>
+      <td>SNK</td>
+   </tr>
+   <tr>
+      <td><b>Release Date</b></td>
+      <td>2001-09-13</td>
+   </tr>
+   <tr>
+      <td><b>Supported Peripherals</b></td>
+      <td>VGA Box, Jump Pack, Controller, Arcade Stick, Keyboard, Modem, VMU, Setsuzoku Cable (Link Cable)</td>
+</table>
+<br>
+"Capcom vs. SNK 2" (カプコン バーサス エス・エヌ・ケイ 2 ミリオネア ファイティング 2001) is a 2D fighting game developed and published by Capcom as the direct sequel to "Capcom vs. SNK: Millennium Fight 2000 Pro". It was released for Sega NAOMI arcade hardware in 2001, with the American arcade release distributed by Sega. It was subsequently ported to the Sega Dreamcast and PlayStation 2 later in the year. 
+
+<h2>Bonus Content</h2>
+Text goes here...
+
+<h2>Known Issues</h2>
+While the patch development team has worked diligently to eliminate bugs and other imperfections, there presently exists one area of the game where there's room for improvement. Players may notice that various status messages that appear throughout their play (e.g., "Now saving...") are off-center. This is due to a quirk in the game's automatic-text-centering code and its behavior when using its own built-in narrower Latin font. Measures were taken to mitigate this minor issue, but it was not addressed in all cases.
+<br><br>
+It's asked that players please keep this in mind befopre submitting a bug report.
+
+<h2>Reporting Bugs and Typos</h2>
+Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
