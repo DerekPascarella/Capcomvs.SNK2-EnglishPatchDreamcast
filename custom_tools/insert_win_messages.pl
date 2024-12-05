@@ -145,6 +145,9 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		# Fix "W-what" and all similar occurrences to "W-What".
 		$translation =~ s/([A-Z])-([a-z])/$1 . '-' . uc($2)/ge;
 
+		# Append extra space to text in order to better center it.
+		$translation .= " ";
+
 		# Text should be dummied with a single empty space.
 		if($translation eq "NULL")
 		{

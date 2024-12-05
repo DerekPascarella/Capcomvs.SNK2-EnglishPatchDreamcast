@@ -79,7 +79,9 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	$translation =~ s/“/"/g;
 	$translation =~ s/\.{4,}/\.\.\./g;
 	$translation =~ s/…/\.\.\./g;
+	$translation =~ s/‥/\.\./g;
 	$translation =~ s/^\.\.\.\s+/\.\.\./g;
+	$translation =~ s/\P{IsPrint}//g;
 
 	# Declare empty variable for storing hex representation of translated string.
 	my $translation_hex = "";
@@ -92,9 +94,14 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 	# Otherwise, text should be processed.
 	else
 	{
+		#### USING SHIFT-JIS NOW IN ORDER TO USE SOME NON-ASCII CHARACTERS ####
 		# Store ASCII-encoded hex representation of the string.
-		$translation_hex = unpack('H*', encode('ASCII', $translation));
+		#$translation_hex = unpack('H*', encode('ASCII', $translation));
+		#######################################################################
 
+		# Remove invalid characters and store Shift-JIS-encoded hex representation of the string.
+		$translation =~ s/[^\x00-\x7F\xA1-\xDF\x81-\x9F\xE0-\xFC]//g;
+		$translation_hex = unpack('H*', encode('Shift-JIS', $translation, Encode::FB_QUIET));
 	}
 
 	# Remove erroneous leading 0x3F character from hex representation of translated text.
