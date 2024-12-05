@@ -190,7 +190,19 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
 This crossover game features a host of characters across both Capcom and SNK fighting games, with an emphasis on their two flagship franchises, "Street Fighter" and "The King of Fighters", respectively.
 
 <h2>Bonus Content</h2>
-Text goes here...
+<img align="right" width="267" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/bonus_content.gif?raw=true">Unique and brand-new for this patch is a collection of bonus content for players to enjoy. To access this content, select "Bonus Mode" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
+<br><br>
+To return to the game from the bonus content section, press the L Trigger on the controller, then select "EXIT TO GAME".
+<br><br>
+<ul>
+ <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all stages, outfits, songs, and more! Note that this will prevent you from playing through Amp and Spica's stories from the beginning.</li>
+ <br>
+ <li><b>On-Disc Extras Page</b><br>The retail GD-ROM of "Cool Cool Toon" included a built-in "Omake", or "Extras", webpage. This baked-in page features fantastic artwork, including character portraits, artwork development pieces, title screens, wallpapers, and more!</li>
+ <br>
+ <li><b>Original Dricas Website</b><br>Dricas, the Japanese Dreamcast network website, hosted individual pages for a slew of games during the console's lifespan. Included here is the original "Cool Cool Toon" site, fully intact. For purposes of preservation, this content has been left untranslated.</li>
+ <br>
+ <li><b>Using Maracas</b><br>This game's little-known support for the Dreamcast maracas was documented on the retail GD-ROM itself. That documentation has been fully translated for all the crazy Dreamcast peripheral owners out there to try!</li>
+</ul>
 
 <h2>Known Issues</h2>
 While the patch development team has worked diligently to eliminate bugs and other imperfections, there presently exists one area of the game where there's room for improvement. Players may notice that various status messages that appear throughout their play (e.g., "Now saving...") are off-center. This is due to a quirk in the game's automatic-text-centering code and its behavior when using its own built-in narrower Latin font. Measures were taken to mitigate this minor issue, but it was not addressed in all cases.
