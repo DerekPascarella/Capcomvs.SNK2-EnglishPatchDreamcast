@@ -153,8 +153,8 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
  <li><img src="https://i.imgur.com/XsUAGA0.png"> <b>IMPORTANT:</b> All win quote dialogue that was previously unique to the Japanese version has been translated to English (around 51,000 instances). This dialogue is customized based on who is speaking, as well as the teammate or defeated opponent to whom they're speaking.</li>
   <ul>
     <li>To see opponent-specific win quotes in "Single Match" mode, hold the Start button and either the L or R trigger after a KO, just before the screen transition occurs. Otherwise, the generic win quotes will be displayed the vast majority of the time.</li>
-    <li>In "Ratio Match" mode, the two-way character-specific dialogue is displayed the majority of the time, with generic or opponent-specific win quotes sometimes used.<!-- To force the two-way character-specific or opponent-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.--></li>
-    <li>In "3 on 3 Match" mode, the opponent-specific and two-way character-specific win quotes are displayed the majority of the time, with generic win quotes sometimes used.<!-- To force the character-specific win quotes, hold the Start Button plus either the L or R triggers after a KO, just before the screen transition occurs.--></li>
+    <li>In "Ratio Match" mode, a mixture of three types of dialogue is displayed: two-way character-specific dialogue, generic win quotes, and opponent-specific win quotes.</li>
+    <li>In "3-on-3 Match" mode, a mixture of three types of dialogue is displayed: two-way character-specific dialogue, generic win quotes, and opponent-specific win quotes.</li>
   </ul>
  <li>The now-defunct "Network Mode" has been replaced with "Bonus Mode", delivering special bonus content to players (see <a href="#bonus-content">Bonus Content</a> section).</li>
 </ul>
