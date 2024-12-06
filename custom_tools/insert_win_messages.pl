@@ -151,7 +151,7 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		$translation .= " ";
 
 		# Append a secondary extra space to better center top line of two-way dialogue.
-		if($query_result =~ / line 1\: /)
+		if($query_result =~ / line 1\: / && $query_result !~ / vs /)
 		{
 			$translation .= " ";
 		}
