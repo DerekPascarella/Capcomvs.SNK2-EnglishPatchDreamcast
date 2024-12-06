@@ -79,10 +79,11 @@ my $incomplete_translations = 0;
 # Iterate through each row of spreadsheet, skipping header columns.
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
-	# Store string number, location, and pointer location for current spreadsheet row.
+	# Store string number, location, pointer location, and text query result for current spreadsheet row.
 	my $number = $spreadsheet_rows[$i][0];
 	my $location = $spreadsheet_rows[$i][1];
 	my $pointer_location = $spreadsheet_rows[$i][2];
+	my $query_result = $spreadsheet_rows[$i][11];
 
 	# Ensure string number and location values are sane.
 	foreach my $number_check ($number, $location)
@@ -148,6 +149,12 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 
 		# Append extra space to text in order to better center it.
 		$translation .= " ";
+
+		# Append a secondary extra space to better center top line of two-way dialogue.
+		if($query_result =~ / line 1\: /)
+		{
+			$translation .= " ";
+		}
 
 		# Text should be dummied with a single empty space.
 		if($translation eq "NULL")
