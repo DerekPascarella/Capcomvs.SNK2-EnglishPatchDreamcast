@@ -209,4 +209,4 @@ While the patch development team has worked diligently to eliminate bugs and oth
 It's asked that players please keep this in mind befopre submitting a bug report.
 
 <h2>Reporting Bugs and Typos</h2>
-Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
+Even after extensive testing on both real hardware and on emulators, the presence of bugs or typos may be possible. Should a player encounter any such issue, it's kindly requested that they <a href="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-EnglishPatchDreamcast/issues/new">submit a new issue</a> to this project page, including as much detailed information as possible.
