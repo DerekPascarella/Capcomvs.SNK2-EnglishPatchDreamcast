@@ -134,10 +134,10 @@ for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 		$translation =~ s/‘/'/g;
 		$translation =~ s/”/"/g;
 		$translation =~ s/“/"/g;
-		$translation =~ s/\.{4,}/\.\.\./g;
+		#$translation =~ s/\.{4,}/\.\.\./g;
 		$translation =~ s/…/\.\.\./g;
 		$translation =~ s/‥/\.\./g;
-		$translation =~ s/^\.\.\.\s+/\.\.\./g;
+		#$translation =~ s/^\.\.\.\s+/\.\.\./g;
 		$translation =~ s/\P{IsPrint}//g;
 		
 		#### NO LONGER REMOVING NON-ASCII CHARACTERS ####
