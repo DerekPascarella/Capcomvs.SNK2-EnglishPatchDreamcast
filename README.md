@@ -200,7 +200,7 @@ To return to the game from the bonus content section, press the L Trigger on the
    <br>
    <li><b>TV Commercial</b><br>Watch the original Japanese commercial touting cross-platform online gameplay between the Sega Dreamcast and the Sony PlayStation 2, fully subtitled in English. Go beyond console hardware!</li>
    <br>
-   <li><b>Developer Interviews</b><br>Interviews translated by <a href="https://itsfantastic.moe/">Benjamin Roodberg</a>a> from the October 15th, 2001 "Another Play Guide", featuring producers, graphic artists, sound engineers, planners, and programmers.</li>
+   <li><b>Developer Interviews</b><br>Interviews translated by <a href="https://itsfantastic.moe/">Benjamin Roodberg</a> from the October 15th, 2001 "Another Play Guide", featuring producers, graphic artists, sound engineers, planners, and programmers.</li>
 </ul>
 
 <h2>Known Issues</h2>
