@@ -107,6 +107,7 @@ In the majority of cases, those burning to CD-R can use either of the CDI patche
    <li>Jesuszilla</li>
    <li>Tortita</li>
    <li>Justin Gibbins</li>
+   <li>hasnopants</li>
   </ul>
   <br>
   <li><b>Graphics</b></li>
