@@ -2,11 +2,11 @@
 <img width="165" height="165" align="right" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/cover.png?raw=true"><!--Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section). Note that there are several patch options.-->
 Note that there are several options, explained below, for applying this English translation patch. All produce the same patched version of the game, but each caters to users in different ways.
 <br><br>
-For details on how to apply an individual patch, see the <a href="#patching-instructions">Patching Instructions</a> section.
-<br><br>
 For those using an ODE (e.g., GDEMU, MODE, USB-GDROM) or emulator, both GDI options produce the same patched disc image, however one requires <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer to perform patching, whereas the other allows the use of common patch utilities that support XDelta format (like <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>).
 <br><br>
 In the majority of cases, those burning to CD-R can use either of the CDI patches. However, many NTSC-J VA0 Dreamcast consoles suffer from incompatibility with Data/Data mode discs. Conversely, there are later model VA2 Dreamcast consoles that don't support Audio/Data mode discs, making Data/Data mode ideal. Unless a player is using an NTSC-J VA0 console, it's advised they start with the Data/Data mode patch. Should issues arise when attempting to boot the disc, they should move on to the Audio/Data mode version.
+<br><br>
+For details on how to apply an individual patch, see the <a href="#patching-instructions">Patching Instructions</a> section.
 <br><br>
 <ul>
   <li><b>GDI Format (Users of ODEs or Emulators)</b><br>
