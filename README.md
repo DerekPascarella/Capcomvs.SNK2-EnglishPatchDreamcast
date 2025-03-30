@@ -194,7 +194,7 @@ This crossover game features a host of characters across both Capcom and SNK fig
 <h2>Bonus Content</h2>
 <img align="right" width="267" src="https://github.com/DerekPascarella/Capcom-vs.-SNK-2-English-Patch-Dreamcast/blob/main/images/bonus_content.gif?raw=true">Unique and brand-new for this patch is a collection of bonus content for players to enjoy. To access this content, select "Bonus Mode" from the main menu, which will launch a <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?t=14611">modified version of the Dream Passport web browser</a>.
 <br><br>
-To return to the game from the bonus content section, press the L Trigger on the controller, then select "EXIT TO GAME".
+To return to the game from the bonus content section, press the L Trigger on the controller, then select "EXIT TO GAME". Note that the six-button ASCII pad will not correctly register the Z or C buttons as L or R Triggers. As a result, players using this controller must either soft or hard reset in order to exit Bonus Mode.
 <br><br>
 <ul>
    <li><b>100% Unlocked Save</b><br>A save file that can be downloaded directly to your VMU to unlock all special characters, modes, and settings! Half the fun is unlocking all this yourself, but some of us just want it all done for us.</li>
