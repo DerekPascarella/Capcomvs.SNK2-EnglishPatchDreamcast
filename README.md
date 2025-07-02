@@ -162,6 +162,7 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
       <li>In "3-on-3 Match" mode, a mixture of three types of dialogue is displayed: two-way character-specific dialogue, generic win quotes, and opponent-specific win quotes.</li>
    </ul>
    <li>The now-defunct "Network Mode" has been replaced with "Bonus Mode", delivering special bonus content to players (see <a href="#bonus-content">Bonus Content</a> section).</li>
+   <li>Proper RGB SCART support was added when the game detects a PAL console.</li>
 </ul>
 <h2>About the Game</h2>
 <table>
