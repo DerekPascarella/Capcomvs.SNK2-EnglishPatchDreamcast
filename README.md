@@ -40,15 +40,19 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
       </ul>
    </li>
 </ul>
+
 <h2>Table of Contents</h2>
-1. [Patching Instructions](#patching-instructions)
-2. [Credits](#credits)
-3. [Release Changelog](#release-changelog)
-4. [What's Changed](#whats-changed)
-5. [About the Game](#about-the-game)
-6. [Bonus Content](#bonus-content)
-7. [Known Issues](#known-issues)
-8. [Reporting Bugs and Typos](#reporting-bugs-and-typos)
+<ol>
+  <li><a href="#patching-instructions">Patching Instructions</a></li>
+  <li><a href="#credits">Credits</a></li>
+  <li><a href="#release-changelog">Release Changelog</a></li>
+  <li><a href="#whats-changed">What's Changed</a></li>
+  <li><a href="#about-the-game">About the Game</a></li>
+  <li><a href="#bonus-content">Bonus Content</a></li>
+  <li><a href="#known-issues">Known Issues</a></li>
+  <li><a href="#reporting-bugs-and-typos">Reporting Bugs and Typos</a></li>
+</ol>
+
 <h2>Patching Instructions</h2>
 <ul>
    <li>
