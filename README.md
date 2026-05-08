@@ -15,12 +15,12 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
          <li>
             <b>Option 1</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.1/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.1.dcp">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.1).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
+            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.2/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.2.dcp">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
          </li>
          <li>
             <b>Option 2</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.1/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.1.GDI.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.1) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.2/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.2.GDI.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
       </ul>
    </li>
@@ -31,11 +31,11 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
          <li>
             <b>Option 1</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.1/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.1.CDI.-.Audio-Data.Mode.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.1) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.2/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.2.CDI.-.Audio-Data.Mode.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
          <li>
             <b>Option 2</b>
-            <br>Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.1/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.1.CDI.-.Data-Data.Mode.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.1) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            <br>Download <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/releases/download/1.2/Capcom.vs.SNK.2.-.Millionaire.Fighting.2001.English.v1.2.CDI.-.Data-Data.Mode.xdelta">Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
       </ul>
    </li>
@@ -76,9 +76,9 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
       <ol type="1">
          <li>Click the settings icon (appears as a gear), enable "Checksum validation", and disable "Backup original file".</li>
          <li>Click the "Original file" browse icon and select the original <tt>track03.bin</tt> file.</li>
-         <li>Click the "XDelta patch" browse icon and select the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [GDI].xdelta</tt> XDelta patch.</li>
+         <li>Click the "XDelta patch" browse icon and select the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [GDI].xdelta</tt> XDelta patch.</li>
          <li>Click "Apply patch" to overwrite the original <tt>track03.bin</tt> file with the patched version.</li>
-         <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>8414F0D6AF7B2B2FE6D19DD0D2EFA83B</tt>.
+         <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>909B0F868C0CCC405A93F39DC6EF8E55</tt>.
       </ol>
    </li>
    <br>
@@ -90,9 +90,9 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
       <ol type="1">
          <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
          <li>Click the "Original file" browse icon and select the unmodified CDI.</li>
-         <li>Click the "XDelta patch" browse icon and select either the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.0) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
+         <li>Click the "XDelta patch" browse icon and select either the <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Capcom vs. SNK 2 - Millionaire Fighting 2001 (English v1.2) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
          <li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li>
-         <li>Verify that the patched CDI has an MD5 checksum of <tt>F6D48683D5B5C579BB8FB91E5C6D5222</tt> if using the Data/Data mode patch, or <tt>0D5DF1536C1CA884E20A6D494E3DE735</tt> if using the Audio/Data mode patch.
+         <li>Verify that the patched CDI has an MD5 checksum of <tt>7E12B6C2A78856140E2F510685757D5F</tt> if using the Data/Data mode patch, or <tt>F66C7C2E3FFF65DB2F28FBBE78ED39D8</tt> if using the Audio/Data mode patch.
       </ol>
    </li>
 </ul>
@@ -131,6 +131,10 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
 </ul>
 <h2>Release Changelog</h2>
 <ul>
+   <li><b>Version 1.2 (2026-05-07)</b></li>
+   <ul>
+      <li>Fixed display of incorrect or dummy text in 50% of double knockout scenarios (see <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/issues/7">issue #7</a>).</li>
+   </ul>
    <li><b>Version 1.1 (2025-07-02)</b></li>
    <ul>
       <li>Fixed message text error in "Color Edit Mode" (see <a href="https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast/issues/1">issue #1</a>).</li>
